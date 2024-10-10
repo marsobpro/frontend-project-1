@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "./components/Hero";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Header from "./components/Header";
 
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
+        <Hero />
       </div>
       <ButtonGradient />
     </>
