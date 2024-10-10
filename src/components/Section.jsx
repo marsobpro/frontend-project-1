@@ -9,7 +9,6 @@ const Section = ({
   customPaddings,
   children,
 }) => {
-  console.log("CLASSNAME", className);
   return (
     <div
       id={id}
