@@ -1,13 +1,14 @@
 import React from "react";
-import Section from "./Section";
-import { collabContent } from "../constants";
-import { check } from "../assets";
-import Button from "./Button";
+import Section from "../Section";
+import { collabContent, collabText } from "../../constants";
+import { check } from "../../assets";
+import Button from "../Button";
+import SkillsCircle from "./SkillsCircle";
 
 const Collaboration = () => {
   return (
     <Section>
-      <div className="container flex">
+      <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
             AI Chat App for seamless collaboration
@@ -25,8 +26,16 @@ const Collaboration = () => {
               </li>
             ))}
           </ul>
+        </div>
 
-          <Button>Try it now</Button>
+        <Button>Try it now</Button>
+
+        <div className="lg:ml-auto xl:w-[38rem] mt-4">
+          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem]">
+            {collabText}
+          </p>
+
+          <SkillsCircle />
         </div>
       </div>
     </Section>
