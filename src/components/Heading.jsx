@@ -3,7 +3,9 @@ import Tagline from "./Tagline";
 
 const Heading = ({ className, title, text, tag }) => {
   return (
-    <div className={`${className} max-w-[50rem] mx-auto mb-12 lg:mb-20`}>
+    <div
+      className={`${className} max-w-[50rem] mx-auto mb-12 lg:mb-20 md:text-center`}
+    >
       {tag && (
         <Tagline className="flex mb-4 items-center md:justify-center">
           {tag}
