@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./Section";
-import Heading from "./Heading";
+import Heading from "./ui/Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
 import { smallSphere, stars } from "../assets";
@@ -15,7 +15,7 @@ const Pricing = () => {
             width={255}
             height={255}
             alt="sphere"
-            className="relative z-1"
+            className="relative z-1 top-2"
           />
           <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
             <img

@@ -1,8 +1,8 @@
 import React from "react";
 import Section from "./Section";
-import Heading from "./Heading";
+import Heading from "./ui/Heading";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
-import Generating from "./Generating";
+import Generating from "./ui/Generating";
 import {
   PhotoChatMessage,
   Gradient,

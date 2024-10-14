@@ -1,5 +1,5 @@
-import BenefitCard from "./BenefitCard";
-import Heading from "./Heading";
+import BenefitCard from "./ui/BenefitCard";
+import Heading from "./ui/Heading";
 import Section from "./Section";
 import { benefits } from "../constants";
 

@@ -1,7 +1,7 @@
 import Button from "./Button";
-import Heading from "./Heading";
+import Heading from "./ui/Heading";
 import Section from "./Section";
-import Tagline from "./Tagline";
+import Tagline from "./ui/Tagline";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";

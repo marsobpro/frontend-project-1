@@ -1,7 +1,7 @@
 import React from "react";
-import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
-import Arrow from "../assets/svg/Arrow";
+import { GradientLight } from "../design/Benefits";
+import ClipPath from "../../assets/svg/ClipPath";
+import Arrow from "../../assets/svg/Arrow";
 
 const BenefitCard = ({ item }) => {
   return (
