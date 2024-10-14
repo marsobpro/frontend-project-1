@@ -7,11 +7,11 @@ const SkillsCircle = () => {
   return (
     <div
       className={
-        "relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100"
+        "relative left-1/2 flex w-[16rem] sm:w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100"
       }
     >
       {/* Inner circle */}
-      <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
+      <div className="flex max-sm:w-40 sm:w-60 aspect-square m-auto border border-n-6 rounded-full ">
         <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
           <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
             <img src={brainwaveSymbol} height={48} width={48} alt="brainwave" />

@@ -1,9 +1,9 @@
 import React from "react";
-import Section from "../Section";
-import { collabContent, collabText } from "../../constants";
-import { check } from "../../assets";
-import Button from "../Button";
-import SkillsCircle from "./SkillsCircle";
+import Section from "./Section";
+import { collabContent, collabText } from "../constants";
+import { check } from "../assets";
+import Button from "./Button";
+import SkillsCircle from "./ui/SkillsCircle";
 
 const Collaboration = () => {
   return (
