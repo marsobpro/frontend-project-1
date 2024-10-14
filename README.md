@@ -1,4 +1,4 @@
-# MusicMentor
+# AI Chat Landing Page
 🤖 Optimize your chat experience with Brainwave by exploring its key benefits and features through this dynamic frontend interface.
 
 Live demo: https://reactaichat.netlify.app/
