@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { brainwave } from "../assets";
 import { useLocation } from "react-router-dom";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { navigation } from "../constants";
 import Button from "./Button";
-import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import MenuSvg from "../assets/svg/MenuSvg";
+import { brainwave } from "../assets";
 
 const Header = () => {
   const pathname = useLocation();
@@ -82,7 +82,7 @@ const Header = () => {
         </Button>
       </div>
     </div>
-  ); // try without backdrop later
+  );
 };
 
 export default Header;

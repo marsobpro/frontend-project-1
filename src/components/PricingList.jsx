@@ -1,7 +1,7 @@
 import React from "react";
-import { pricing } from "../constants";
 import Button from "./Button";
 import { check } from "../assets";
+import { pricing } from "../constants";
 
 const PricingList = () => {
   return (
