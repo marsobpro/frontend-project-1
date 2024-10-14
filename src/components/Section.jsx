@@ -1,13 +1,6 @@
 import React from "react";
 
-const Section = ({
-  className,
-  id,
-  crosses,
-  crossesOffset,
-  customPaddings,
-  children,
-}) => {
+const Section = ({ className, id, customPaddings, children }) => {
   return (
     <div
       id={id}

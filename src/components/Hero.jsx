@@ -43,18 +43,20 @@ const Hero = () => {
             Get started
           </Button>
         </div>
+
+        {/* Bg imgs and robot img */}
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
-              <div className="aspect-[33/40] roudned-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[33/40] rounded-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
                   src={robot}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
-                  alt="ai"
+                  alt="ai generated robot"
                 />
+                {/* Left floating container */}
                 <ScrollParallax isAbsolutelyPositioned>
                   {" "}
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
@@ -64,8 +66,9 @@ const Hero = () => {
                       </li>
                     ))}
                   </ul>
-                  <Generating className="absolute left-4 right-4 bottom-5 md:right-auto md:bottom-8 md:w-[31rem] md:translate-x-1/2" />
                 </ScrollParallax>
+
+                {/* Right floating container */}
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
@@ -74,7 +77,10 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
+            <Generating className="absolute left-4 right-4 bottom-5 md:right-auto md:bottom-8 md:w-[31rem] md:translate-x-1/2" />
           </div>
+
+          {/* Main bg image */}
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46$] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}

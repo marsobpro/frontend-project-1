@@ -34,10 +34,12 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        {" "}
+        {/* Logo */}
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img src={brainwave} width={190} height={40} alt="Brainwave" />
         </a>
+
+        {/* Navigation */}
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
@@ -63,6 +65,8 @@ const Header = () => {
           </div>
           <HamburgerMenu />
         </nav>
+
+        {/*Action buttons*/}
         <a
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"

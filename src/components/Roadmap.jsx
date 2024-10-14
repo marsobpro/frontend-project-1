@@ -11,6 +11,7 @@ const Roadmap = () => (
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="What we’re working on" />
 
+      {/* Cards */}
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
@@ -23,6 +24,7 @@ const Roadmap = () => (
               key={item.id}
             >
               <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
+                {/* Bg img */}
                 <div className="absolute top-0 left-0 max-w-full">
                   <img
                     className="w-full"
@@ -32,7 +34,9 @@ const Roadmap = () => (
                     alt="Grid"
                   />
                 </div>
+
                 <div className="relative z-1">
+                  {/* Header */}
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
 
@@ -48,6 +52,7 @@ const Roadmap = () => (
                     </div>
                   </div>
 
+                  {/* Body */}
                   <div className="mb-10 -my-10 -mx-15">
                     <img
                       className="w-full"
