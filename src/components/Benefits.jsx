@@ -14,7 +14,7 @@ const Benefits = () => {
 
         <div className="flex flex-wrap gap-10 mb-10 justify-center">
           {benefits.map((item) => (
-            <BenefitCard item={item} />
+            <BenefitCard item={item} key={item.id} />
           ))}
         </div>
       </div>
