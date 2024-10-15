@@ -1,5 +1,5 @@
 # AI Chat Landing Page
-🤖 Optimize your chat experience with Brainwave by exploring its key benefits and features through this dynamic frontend interface.
+🤖 This project is a frontend of a landing page for an AI chat interface, featuring responsive design, bento-style content section, and parallax effects. It highlights the core features of the AI chat system with a dynamic and clean user experience.
 
 Live demo: https://reactaichat.netlify.app/
 
@@ -15,9 +15,9 @@ Live demo: https://reactaichat.netlify.app/
 
 ## General Information
 
-- This is a landing page project built using React and TailwindCSS,
-- I implemented a parallax effect for both scroll and mouse movement.
-
+- This is a landing page project built using React and TailwindCSS
+- I implemented a parallax effect for both scroll and mouse movement
+- I also used Bento Box design
 
 
 ## Technologies Used
